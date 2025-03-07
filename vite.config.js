@@ -36,7 +36,6 @@ export default defineConfig(({ command }) => {
       },
       outDir: '../dist',
       emptyOutDir: true,
-      base: '/goit-js-hw-10/',
     },
     plugins: [
       injectHTML(),
