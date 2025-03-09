@@ -16,3 +16,75 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+
+input,
+button {
+  display: inline-block;
+  align-items: center;
+}
+input {
+  justify-content: flex-start;
+  width: 272px;
+  height: 40px;
+  margin-top: 36px;
+  margin-left: 156px;
+  margin-right: 8px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 16px;
+} 
+input:hover{
+  border-color: #000000;
+}
+input:active {
+  border-color: #4E75FF;
+}
+input:disable {
+  color: #808080;
+  background-color: #FAFAFA;
+} 
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  border: none;
+  background: #cfcfcf;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #989898;
+}
+.timer {
+  display: flex;
+  margin-left: 156px;
+  justify-content: space-between;
+  width: 346px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  color: #2e2f42;
+}
+.value {
+  font-family: var(--font-family);
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+}  
+.label {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 1.5;
+
+}
