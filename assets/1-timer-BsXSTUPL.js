@@ -1,0 +1,2 @@
+import{f as a}from"./vendor-DOPLpFvu.js";const n=document.querySelector("#datetime-picker"),t=document.querySelector("[data-start]"),r={enableTime:!0,time_24hr:!0,defaultDate:new Date,minuteIncrement:1,onClose(e){console.log(e[0])}};a("#datetime-picker",r);t.addEventListener("click",e=>{if(e=new Date(n.value),e<new Date){window.alert("Please choose a date in the future"),t.disabled=!0;return}else t.disabled=!1});
+//# sourceMappingURL=1-timer-BsXSTUPL.js.map
