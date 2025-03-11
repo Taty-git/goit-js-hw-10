@@ -64,6 +64,10 @@ button {
   letter-spacing: 0.04em;
   color: #989898;
 }
+button:active {
+  background: #6C8CFF;
+  color: #ffffff;
+}
 .timer {
   display: flex;
   margin-left: 156px;
