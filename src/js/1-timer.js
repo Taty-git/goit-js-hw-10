@@ -53,7 +53,6 @@ function startTimer(targetDate) {
       btnStart.disabled = false;
       btnStart.style.backgroundColor = "#4E75FF";
       btnStart.style.color = "#FFFFFF";
-      iziToast.success({ message: "Time's up!" });
       return;
     }
 
