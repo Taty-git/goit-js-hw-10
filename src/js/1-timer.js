@@ -36,7 +36,8 @@ inputText.addEventListener('input', () => {
     iziToast.error({
       message: "Please choose a date in the future",
       position: "topCenter",
-      timeout: 3000 
+      timeout: 3000,
+      position: 'topRight'
     });
   }
 });
@@ -89,7 +90,8 @@ btnStart.addEventListener("click", () => {
   if (userSelectedDate <= new Date()) {
     iziToast.error({
       message: "Please choose a date in the future",
-      timeout: 3000
+      timeout: 3000,
+      position: 'topRight'
     });
     return;
   }
