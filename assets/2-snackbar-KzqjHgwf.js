@@ -1,0 +1,2 @@
+import{i}from"./vendor-BbSUbo7J.js";document.querySelector(".form").addEventListener("submit",function(t){t.preventDefault();const s=parseInt(t.target.querySelector('input[name="delay"]').value,10),o=t.target.querySelector('input[name="state"]:checked').value;new Promise((e,r)=>{setTimeout(()=>{o==="fulfilled"?e(s):r(s)},s)}).then(e=>{i.success({title:"Success",message:`Fulfilled promise in ${e}ms`,position:"topRight"})}).catch(e=>{i.error({title:"Error",message:`Rejected promise in ${e}ms`,position:"topRight"})})});
+//# sourceMappingURL=2-snackbar-KzqjHgwf.js.map
